@@ -78,7 +78,7 @@ Partial Class UserForm
         btnSales.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnSales.IconSize = 32
         btnSales.ImageAlign = ContentAlignment.MiddleLeft
-        btnSales.Location = New Point(0, 492)
+        btnSales.Location = New Point(0, 584)
         btnSales.Name = "btnSales"
         btnSales.Padding = New Padding(10, 0, 20, 0)
         btnSales.Size = New Size(284, 60)
@@ -100,7 +100,7 @@ Partial Class UserForm
         btnDeleteItem.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnDeleteItem.IconSize = 32
         btnDeleteItem.ImageAlign = ContentAlignment.MiddleLeft
-        btnDeleteItem.Location = New Point(0, 432)
+        btnDeleteItem.Location = New Point(0, 524)
         btnDeleteItem.Name = "btnDeleteItem"
         btnDeleteItem.Padding = New Padding(10, 0, 20, 0)
         btnDeleteItem.Size = New Size(284, 60)
@@ -122,7 +122,7 @@ Partial Class UserForm
         btnUpdateItem.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnUpdateItem.IconSize = 32
         btnUpdateItem.ImageAlign = ContentAlignment.MiddleLeft
-        btnUpdateItem.Location = New Point(0, 372)
+        btnUpdateItem.Location = New Point(0, 464)
         btnUpdateItem.Name = "btnUpdateItem"
         btnUpdateItem.Padding = New Padding(10, 0, 20, 0)
         btnUpdateItem.Size = New Size(284, 60)
@@ -144,7 +144,7 @@ Partial Class UserForm
         btnAdditem.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnAdditem.IconSize = 32
         btnAdditem.ImageAlign = ContentAlignment.MiddleLeft
-        btnAdditem.Location = New Point(0, 312)
+        btnAdditem.Location = New Point(0, 404)
         btnAdditem.Name = "btnAdditem"
         btnAdditem.Padding = New Padding(10, 0, 20, 0)
         btnAdditem.Size = New Size(284, 60)
@@ -166,7 +166,7 @@ Partial Class UserForm
         btnProductList.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnProductList.IconSize = 32
         btnProductList.ImageAlign = ContentAlignment.MiddleLeft
-        btnProductList.Location = New Point(0, 252)
+        btnProductList.Location = New Point(0, 344)
         btnProductList.Name = "btnProductList"
         btnProductList.Padding = New Padding(10, 0, 20, 0)
         btnProductList.Size = New Size(284, 60)
@@ -210,7 +210,7 @@ Partial Class UserForm
         btnDashboard.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnDashboard.IconSize = 32
         btnDashboard.ImageAlign = ContentAlignment.MiddleLeft
-        btnDashboard.Location = New Point(0, 192)
+        btnDashboard.Location = New Point(0, 284)
         btnDashboard.Name = "btnDashboard"
         btnDashboard.Padding = New Padding(10, 0, 20, 0)
         btnDashboard.Size = New Size(284, 60)
@@ -227,13 +227,13 @@ Partial Class UserForm
         PanelLogo.Dock = DockStyle.Top
         PanelLogo.Location = New Point(0, 0)
         PanelLogo.Name = "PanelLogo"
-        PanelLogo.Size = New Size(284, 192)
+        PanelLogo.Size = New Size(284, 284)
         PanelLogo.TabIndex = 0
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.Logo
-        PictureBox1.Location = New Point(68, 24)
+        PictureBox1.Location = New Point(66, 74)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(148, 139)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -350,11 +350,11 @@ Partial Class UserForm
         ' lblFormTitleUser
         ' 
         lblFormTitleUser.AutoSize = True
-        lblFormTitleUser.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblFormTitleUser.Font = New Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblFormTitleUser.ForeColor = Color.White
-        lblFormTitleUser.Location = New Point(65, 24)
+        lblFormTitleUser.Location = New Point(80, 24)
         lblFormTitleUser.Name = "lblFormTitleUser"
-        lblFormTitleUser.Size = New Size(138, 32)
+        lblFormTitleUser.Size = New Size(211, 50)
         lblFormTitleUser.TabIndex = 1
         lblFormTitleUser.Text = "Dashboard"
         ' 
@@ -364,9 +364,10 @@ Partial Class UserForm
         IconCurrentFormUser.IconChar = FontAwesome.Sharp.IconChar.ChartLine
         IconCurrentFormUser.IconColor = Color.White
         IconCurrentFormUser.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconCurrentFormUser.Location = New Point(27, 24)
+        IconCurrentFormUser.IconSize = 50
+        IconCurrentFormUser.Location = New Point(20, 24)
         IconCurrentFormUser.Name = "IconCurrentFormUser"
-        IconCurrentFormUser.Size = New Size(32, 32)
+        IconCurrentFormUser.Size = New Size(54, 50)
         IconCurrentFormUser.TabIndex = 0
         IconCurrentFormUser.TabStop = False
         ' 
@@ -387,7 +388,7 @@ Partial Class UserForm
         Controls.Add(PanelDesktop)
         Controls.Add(PanelTitleBar)
         Controls.Add(PanelMenu)
-        MinimumSize = New Size(1100, 700)
+        MinimumSize = New Size(1200, 800)
         Name = "UserForm"
         StartPosition = FormStartPosition.CenterScreen
         Text = "UserForm"

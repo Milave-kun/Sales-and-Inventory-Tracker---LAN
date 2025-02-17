@@ -18,6 +18,7 @@ Public Class UserForm
         'Form'
 
         ActivateButton(btnDashboard, RGBColors.color5)
+        OpenChildForm(New frmDashboard())
 
         Me.Text = String.Empty
         Me.ControlBox = False

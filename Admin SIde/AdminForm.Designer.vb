@@ -95,7 +95,7 @@ Partial Class AdminForm
         btnAccountList.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnAccountList.IconSize = 32
         btnAccountList.ImageAlign = ContentAlignment.MiddleLeft
-        btnAccountList.Location = New Point(0, 432)
+        btnAccountList.Location = New Point(0, 524)
         btnAccountList.Name = "btnAccountList"
         btnAccountList.Padding = New Padding(10, 0, 20, 0)
         btnAccountList.Size = New Size(284, 60)
@@ -117,7 +117,7 @@ Partial Class AdminForm
         btnProductReport.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnProductReport.IconSize = 32
         btnProductReport.ImageAlign = ContentAlignment.MiddleLeft
-        btnProductReport.Location = New Point(0, 372)
+        btnProductReport.Location = New Point(0, 464)
         btnProductReport.Name = "btnProductReport"
         btnProductReport.Padding = New Padding(10, 0, 20, 0)
         btnProductReport.Size = New Size(284, 60)
@@ -139,7 +139,7 @@ Partial Class AdminForm
         btnSalesReport.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnSalesReport.IconSize = 32
         btnSalesReport.ImageAlign = ContentAlignment.MiddleLeft
-        btnSalesReport.Location = New Point(0, 312)
+        btnSalesReport.Location = New Point(0, 404)
         btnSalesReport.Name = "btnSalesReport"
         btnSalesReport.Padding = New Padding(10, 0, 20, 0)
         btnSalesReport.Size = New Size(284, 60)
@@ -161,7 +161,7 @@ Partial Class AdminForm
         btnAdminAccount.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnAdminAccount.IconSize = 32
         btnAdminAccount.ImageAlign = ContentAlignment.MiddleLeft
-        btnAdminAccount.Location = New Point(0, 252)
+        btnAdminAccount.Location = New Point(0, 344)
         btnAdminAccount.Name = "btnAdminAccount"
         btnAdminAccount.Padding = New Padding(10, 0, 20, 0)
         btnAdminAccount.Size = New Size(284, 60)
@@ -183,7 +183,7 @@ Partial Class AdminForm
         btnUserAccount.IconFont = FontAwesome.Sharp.IconFont.Auto
         btnUserAccount.IconSize = 32
         btnUserAccount.ImageAlign = ContentAlignment.MiddleLeft
-        btnUserAccount.Location = New Point(0, 192)
+        btnUserAccount.Location = New Point(0, 284)
         btnUserAccount.Name = "btnUserAccount"
         btnUserAccount.Padding = New Padding(10, 0, 20, 0)
         btnUserAccount.Size = New Size(284, 60)
@@ -200,13 +200,13 @@ Partial Class AdminForm
         PanelLogo.Dock = DockStyle.Top
         PanelLogo.Location = New Point(0, 0)
         PanelLogo.Name = "PanelLogo"
-        PanelLogo.Size = New Size(284, 192)
+        PanelLogo.Size = New Size(284, 284)
         PanelLogo.TabIndex = 0
         ' 
         ' PictureBox1
         ' 
         PictureBox1.Image = My.Resources.Resources.Logo
-        PictureBox1.Location = New Point(68, 24)
+        PictureBox1.Location = New Point(66, 74)
         PictureBox1.Name = "PictureBox1"
         PictureBox1.Size = New Size(148, 139)
         PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -275,11 +275,11 @@ Partial Class AdminForm
         ' lblFormTitle
         ' 
         lblFormTitle.AutoSize = True
-        lblFormTitle.Font = New Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
+        lblFormTitle.Font = New Font("Segoe UI", 27.75F, FontStyle.Bold, GraphicsUnit.Point, CByte(0))
         lblFormTitle.ForeColor = Color.White
-        lblFormTitle.Location = New Point(65, 24)
+        lblFormTitle.Location = New Point(80, 24)
         lblFormTitle.Name = "lblFormTitle"
-        lblFormTitle.Size = New Size(167, 32)
+        lblFormTitle.Size = New Size(253, 50)
         lblFormTitle.TabIndex = 1
         lblFormTitle.Text = "User Account"
         ' 
@@ -289,9 +289,10 @@ Partial Class AdminForm
         IconCurrentForm.IconChar = FontAwesome.Sharp.IconChar.UserGear
         IconCurrentForm.IconColor = Color.White
         IconCurrentForm.IconFont = FontAwesome.Sharp.IconFont.Auto
-        IconCurrentForm.Location = New Point(27, 24)
+        IconCurrentForm.IconSize = 50
+        IconCurrentForm.Location = New Point(20, 24)
         IconCurrentForm.Name = "IconCurrentForm"
-        IconCurrentForm.Size = New Size(32, 32)
+        IconCurrentForm.Size = New Size(54, 50)
         IconCurrentForm.TabIndex = 0
         IconCurrentForm.TabStop = False
         ' 
@@ -313,7 +314,7 @@ Partial Class AdminForm
         Controls.Add(PanelDesktop)
         Controls.Add(PanelTitleBar)
         Controls.Add(PanelMenu)
-        MinimumSize = New Size(1100, 700)
+        MinimumSize = New Size(1200, 800)
         Name = "AdminForm"
         StartPosition = FormStartPosition.CenterScreen
         Text = "AdminForm"
