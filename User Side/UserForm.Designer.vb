@@ -384,6 +384,7 @@ Partial Class UserForm
         ' 
         AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.FromArgb(CByte(31), CByte(30), CByte(68))
         ClientSize = New Size(1184, 761)
         Controls.Add(PanelDesktop)
         Controls.Add(PanelTitleBar)
