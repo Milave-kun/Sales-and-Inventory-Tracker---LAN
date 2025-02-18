@@ -9,5 +9,9 @@
 
 ## User
 ![User Login Form](https://github.com/user-attachments/assets/4e788c16-3ed1-4af8-b834-a68f154dc60e)
-
 ![User Dashboard Form](https://github.com/user-attachments/assets/811b2be1-6252-40e6-9abf-62fd7f704c64)
+![User Product List](https://github.com/user-attachments/assets/ef944c93-2c95-4bef-8dcb-bf7ade9b9edb)
+![User Add Item](https://github.com/user-attachments/assets/66f7fa3d-985a-43f5-a6b6-fba25940fb0c)
+![User Update Item](https://github.com/user-attachments/assets/7e900f84-f786-4536-aeb8-1efb3c3a845e)
+![User Delete Item](https://github.com/user-attachments/assets/4cbef30a-35be-40cc-88a6-34b35c352ba4)
+![User Sales](https://github.com/user-attachments/assets/02836869-01fe-4d00-9687-00b072c5248e)
